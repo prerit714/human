@@ -1,0 +1,12 @@
+1. Open terminal and cd to home
+2. mkdir hello && cd hello
+3. go mod init github.com/prerit714/hello
+4. touch hello.go
+
+package main
+import "fmt"
+func main() {
+  fmt.Println("Hello world!")
+}
+
+5. go run .
