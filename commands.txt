@@ -10,3 +10,17 @@ func main() {
 }
 
 5. go run .
+6. touch hello.go
+
+package main
+import (
+  "fmt"
+  "rsc.io/quote"
+)
+
+func main() {
+  fmt.Println(quote.Go())
+}
+
+7. go mod tidy
+8. go run .
